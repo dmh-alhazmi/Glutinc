@@ -1,9 +1,3 @@
-//
-//  GlutincTeamApp.swift
-//  GlutincTeam
-//
-//  Created by Deemah Alhazmi on 02/12/2025.
-//
 
 import SwiftUI
 
@@ -11,7 +5,7 @@ import SwiftUI
 struct GlutincTeamApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
