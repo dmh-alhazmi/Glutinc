@@ -1,21 +1,29 @@
 //
 //  ContentView.swift
-//  GlutincTeam
+//  Glutinc
 //
-//  Created by Deemah Alhazmi on 02/12/2025.
+//  Created by Deemah Alhazmi on 01/12/2025.
 //
 
 import SwiftUI
 
+
 struct ContentView: View {
+    @StateObject private var vm = UserVM()   // single source of truth
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            ProfileView(vm: vm)
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        NavigationLink(destination: SettingsView(vm: vm)) {
+                            Image(systemName: "gearshape")
+                                .foregroundColor(.white)
+                                .font(.system(size: 20))
+                        }
+                    }
+                }
         }
-        .padding()
     }
 }
 
