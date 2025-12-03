@@ -7,62 +7,62 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		269C08D02EDECCF2009052A4 /* PBXContainerItemProxy */ = {
+		A8954D962EDD7E8100A2DDD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 269C08BA2EDECCF2009052A4 /* Project object */;
+			containerPortal = A8954D802EDD7E7F00A2DDD4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 269C08C12EDECCF2009052A4;
-			remoteInfo = GlutincTeam;
+			remoteGlobalIDString = A8954D872EDD7E7F00A2DDD4;
+			remoteInfo = Glutinc;
 		};
-		269C08DA2EDECCF2009052A4 /* PBXContainerItemProxy */ = {
+		A8954DA02EDD7E8100A2DDD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 269C08BA2EDECCF2009052A4 /* Project object */;
+			containerPortal = A8954D802EDD7E7F00A2DDD4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 269C08C12EDECCF2009052A4;
-			remoteInfo = GlutincTeam;
+			remoteGlobalIDString = A8954D872EDD7E7F00A2DDD4;
+			remoteInfo = Glutinc;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		269C08C22EDECCF2009052A4 /* GlutincTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlutincTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		269C08CF2EDECCF2009052A4 /* GlutincTeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlutincTeamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		269C08D92EDECCF2009052A4 /* GlutincTeamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlutincTeamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8954D882EDD7E7F00A2DDD4 /* Glutinc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glutinc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8954D952EDD7E8100A2DDD4 /* GlutincTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlutincTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8954D9F2EDD7E8100A2DDD4 /* GlutincUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlutincUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		269C08C42EDECCF2009052A4 /* GlutincTeam */ = {
+		A8954D8A2EDD7E7F00A2DDD4 /* Glutinc */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GlutincTeam;
+			path = Glutinc;
 			sourceTree = "<group>";
 		};
-		269C08D22EDECCF2009052A4 /* GlutincTeamTests */ = {
+		A8954D982EDD7E8100A2DDD4 /* GlutincTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GlutincTeamTests;
+			path = GlutincTests;
 			sourceTree = "<group>";
 		};
-		269C08DC2EDECCF2009052A4 /* GlutincTeamUITests */ = {
+		A8954DA22EDD7E8100A2DDD4 /* GlutincUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GlutincTeamUITests;
+			path = GlutincUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		269C08BF2EDECCF2009052A4 /* Frameworks */ = {
+		A8954D852EDD7E7F00A2DDD4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		269C08CC2EDECCF2009052A4 /* Frameworks */ = {
+		A8954D922EDD7E8100A2DDD4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		269C08D62EDECCF2009052A4 /* Frameworks */ = {
+		A8954D9C2EDD7E8100A2DDD4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		269C08B92EDECCF2009052A4 = {
+		A8954D7F2EDD7E7F00A2DDD4 = {
 			isa = PBXGroup;
 			children = (
-				269C08C42EDECCF2009052A4 /* GlutincTeam */,
-				269C08D22EDECCF2009052A4 /* GlutincTeamTests */,
-				269C08DC2EDECCF2009052A4 /* GlutincTeamUITests */,
-				269C08C32EDECCF2009052A4 /* Products */,
+				A8954D8A2EDD7E7F00A2DDD4 /* Glutinc */,
+				A8954D982EDD7E8100A2DDD4 /* GlutincTests */,
+				A8954DA22EDD7E8100A2DDD4 /* GlutincUITests */,
+				A8954D892EDD7E7F00A2DDD4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		269C08C32EDECCF2009052A4 /* Products */ = {
+		A8954D892EDD7E7F00A2DDD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				269C08C22EDECCF2009052A4 /* GlutincTeam.app */,
-				269C08CF2EDECCF2009052A4 /* GlutincTeamTests.xctest */,
-				269C08D92EDECCF2009052A4 /* GlutincTeamUITests.xctest */,
+				A8954D882EDD7E7F00A2DDD4 /* Glutinc.app */,
+				A8954D952EDD7E8100A2DDD4 /* GlutincTests.xctest */,
+				A8954D9F2EDD7E8100A2DDD4 /* GlutincUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		269C08C12EDECCF2009052A4 /* GlutincTeam */ = {
+		A8954D872EDD7E7F00A2DDD4 /* Glutinc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 269C08E32EDECCF2009052A4 /* Build configuration list for PBXNativeTarget "GlutincTeam" */;
+			buildConfigurationList = A8954DA92EDD7E8100A2DDD4 /* Build configuration list for PBXNativeTarget "Glutinc" */;
 			buildPhases = (
-				269C08BE2EDECCF2009052A4 /* Sources */,
-				269C08BF2EDECCF2009052A4 /* Frameworks */,
-				269C08C02EDECCF2009052A4 /* Resources */,
+				A8954D842EDD7E7F00A2DDD4 /* Sources */,
+				A8954D852EDD7E7F00A2DDD4 /* Frameworks */,
+				A8954D862EDD7E7F00A2DDD4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				269C08C42EDECCF2009052A4 /* GlutincTeam */,
+				A8954D8A2EDD7E7F00A2DDD4 /* Glutinc */,
 			);
-			name = GlutincTeam;
+			name = Glutinc;
 			packageProductDependencies = (
 			);
-			productName = GlutincTeam;
-			productReference = 269C08C22EDECCF2009052A4 /* GlutincTeam.app */;
+			productName = Glutinc;
+			productReference = A8954D882EDD7E7F00A2DDD4 /* Glutinc.app */;
 			productType = "com.apple.product-type.application";
 		};
-		269C08CE2EDECCF2009052A4 /* GlutincTeamTests */ = {
+		A8954D942EDD7E8100A2DDD4 /* GlutincTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 269C08E62EDECCF2009052A4 /* Build configuration list for PBXNativeTarget "GlutincTeamTests" */;
+			buildConfigurationList = A8954DAC2EDD7E8100A2DDD4 /* Build configuration list for PBXNativeTarget "GlutincTests" */;
 			buildPhases = (
-				269C08CB2EDECCF2009052A4 /* Sources */,
-				269C08CC2EDECCF2009052A4 /* Frameworks */,
-				269C08CD2EDECCF2009052A4 /* Resources */,
+				A8954D912EDD7E8100A2DDD4 /* Sources */,
+				A8954D922EDD7E8100A2DDD4 /* Frameworks */,
+				A8954D932EDD7E8100A2DDD4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				269C08D12EDECCF2009052A4 /* PBXTargetDependency */,
+				A8954D972EDD7E8100A2DDD4 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				269C08D22EDECCF2009052A4 /* GlutincTeamTests */,
+				A8954D982EDD7E8100A2DDD4 /* GlutincTests */,
 			);
-			name = GlutincTeamTests;
+			name = GlutincTests;
 			packageProductDependencies = (
 			);
-			productName = GlutincTeamTests;
-			productReference = 269C08CF2EDECCF2009052A4 /* GlutincTeamTests.xctest */;
+			productName = GlutincTests;
+			productReference = A8954D952EDD7E8100A2DDD4 /* GlutincTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		269C08D82EDECCF2009052A4 /* GlutincTeamUITests */ = {
+		A8954D9E2EDD7E8100A2DDD4 /* GlutincUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 269C08E92EDECCF2009052A4 /* Build configuration list for PBXNativeTarget "GlutincTeamUITests" */;
+			buildConfigurationList = A8954DAF2EDD7E8100A2DDD4 /* Build configuration list for PBXNativeTarget "GlutincUITests" */;
 			buildPhases = (
-				269C08D52EDECCF2009052A4 /* Sources */,
-				269C08D62EDECCF2009052A4 /* Frameworks */,
-				269C08D72EDECCF2009052A4 /* Resources */,
+				A8954D9B2EDD7E8100A2DDD4 /* Sources */,
+				A8954D9C2EDD7E8100A2DDD4 /* Frameworks */,
+				A8954D9D2EDD7E8100A2DDD4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				269C08DB2EDECCF2009052A4 /* PBXTargetDependency */,
+				A8954DA12EDD7E8100A2DDD4 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				269C08DC2EDECCF2009052A4 /* GlutincTeamUITests */,
+				A8954DA22EDD7E8100A2DDD4 /* GlutincUITests */,
 			);
-			name = GlutincTeamUITests;
+			name = GlutincUITests;
 			packageProductDependencies = (
 			);
-			productName = GlutincTeamUITests;
-			productReference = 269C08D92EDECCF2009052A4 /* GlutincTeamUITests.xctest */;
+			productName = GlutincUITests;
+			productReference = A8954D9F2EDD7E8100A2DDD4 /* GlutincUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		269C08BA2EDECCF2009052A4 /* Project object */ = {
+		A8954D802EDD7E7F00A2DDD4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					269C08C12EDECCF2009052A4 = {
+					A8954D872EDD7E7F00A2DDD4 = {
 						CreatedOnToolsVersion = 26.0.1;
 					};
-					269C08CE2EDECCF2009052A4 = {
+					A8954D942EDD7E8100A2DDD4 = {
 						CreatedOnToolsVersion = 26.0.1;
-						TestTargetID = 269C08C12EDECCF2009052A4;
+						TestTargetID = A8954D872EDD7E7F00A2DDD4;
 					};
-					269C08D82EDECCF2009052A4 = {
+					A8954D9E2EDD7E8100A2DDD4 = {
 						CreatedOnToolsVersion = 26.0.1;
-						TestTargetID = 269C08C12EDECCF2009052A4;
+						TestTargetID = A8954D872EDD7E7F00A2DDD4;
 					};
 				};
 			};
-			buildConfigurationList = 269C08BD2EDECCF2009052A4 /* Build configuration list for PBXProject "GlutincTeam" */;
+			buildConfigurationList = A8954D832EDD7E7F00A2DDD4 /* Build configuration list for PBXProject "Glutinc" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				ar,
 			);
-			mainGroup = 269C08B92EDECCF2009052A4;
+			mainGroup = A8954D7F2EDD7E7F00A2DDD4;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 269C08C32EDECCF2009052A4 /* Products */;
+			productRefGroup = A8954D892EDD7E7F00A2DDD4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				269C08C12EDECCF2009052A4 /* GlutincTeam */,
-				269C08CE2EDECCF2009052A4 /* GlutincTeamTests */,
-				269C08D82EDECCF2009052A4 /* GlutincTeamUITests */,
+				A8954D872EDD7E7F00A2DDD4 /* Glutinc */,
+				A8954D942EDD7E8100A2DDD4 /* GlutincTests */,
+				A8954D9E2EDD7E8100A2DDD4 /* GlutincUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		269C08C02EDECCF2009052A4 /* Resources */ = {
+		A8954D862EDD7E7F00A2DDD4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		269C08CD2EDECCF2009052A4 /* Resources */ = {
+		A8954D932EDD7E8100A2DDD4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		269C08D72EDECCF2009052A4 /* Resources */ = {
+		A8954D9D2EDD7E8100A2DDD4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		269C08BE2EDECCF2009052A4 /* Sources */ = {
+		A8954D842EDD7E7F00A2DDD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		269C08CB2EDECCF2009052A4 /* Sources */ = {
+		A8954D912EDD7E8100A2DDD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		269C08D52EDECCF2009052A4 /* Sources */ = {
+		A8954D9B2EDD7E8100A2DDD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		269C08D12EDECCF2009052A4 /* PBXTargetDependency */ = {
+		A8954D972EDD7E8100A2DDD4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 269C08C12EDECCF2009052A4 /* GlutincTeam */;
-			targetProxy = 269C08D02EDECCF2009052A4 /* PBXContainerItemProxy */;
+			target = A8954D872EDD7E7F00A2DDD4 /* Glutinc */;
+			targetProxy = A8954D962EDD7E8100A2DDD4 /* PBXContainerItemProxy */;
 		};
-		269C08DB2EDECCF2009052A4 /* PBXTargetDependency */ = {
+		A8954DA12EDD7E8100A2DDD4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 269C08C12EDECCF2009052A4 /* GlutincTeam */;
-			targetProxy = 269C08DA2EDECCF2009052A4 /* PBXContainerItemProxy */;
+			target = A8954D872EDD7E7F00A2DDD4 /* Glutinc */;
+			targetProxy = A8954DA02EDD7E8100A2DDD4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		269C08E12EDECCF2009052A4 /* Debug */ = {
+		A8954DA72EDD7E8100A2DDD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,7 +304,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = YM2L953M9C;
+				DEVELOPMENT_TEAM = D756J56FJ3;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -322,16 +322,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		269C08E22EDECCF2009052A4 /* Release */ = {
+		A8954DA82EDD7E8100A2DDD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -366,7 +368,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = YM2L953M9C;
+				DEVELOPMENT_TEAM = D756J56FJ3;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -378,243 +380,206 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		269C08E42EDECCF2009052A4 /* Debug */ = {
+		A8954DAA2EDD7E8100A2DDD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YM2L953M9C;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = D756J56FJ3;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_NSCameraUsageDescription = NSCameraUsageDescription;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Deemah.com.GlutincTeam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sag.Glutinc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		269C08E52EDECCF2009052A4 /* Release */ = {
+		A8954DAB2EDD7E8100A2DDD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YM2L953M9C;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = D756J56FJ3;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_NSCameraUsageDescription = NSCameraUsageDescription;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Deemah.com.GlutincTeam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sag.Glutinc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		269C08E72EDECCF2009052A4 /* Debug */ = {
+		A8954DAD2EDD7E8100A2DDD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YM2L953M9C;
+				DEVELOPMENT_TEAM = D756J56FJ3;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
-				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Deemah.com.GlutincTeamTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sag.GlutincTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlutincTeam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlutincTeam";
-				XROS_DEPLOYMENT_TARGET = 26.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glutinc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Glutinc";
 			};
 			name = Debug;
 		};
-		269C08E82EDECCF2009052A4 /* Release */ = {
+		A8954DAE2EDD7E8100A2DDD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YM2L953M9C;
+				DEVELOPMENT_TEAM = D756J56FJ3;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
-				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Deemah.com.GlutincTeamTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sag.GlutincTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlutincTeam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlutincTeam";
-				XROS_DEPLOYMENT_TARGET = 26.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glutinc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Glutinc";
 			};
 			name = Release;
 		};
-		269C08EA2EDECCF2009052A4 /* Debug */ = {
+		A8954DB02EDD7E8100A2DDD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YM2L953M9C;
+				DEVELOPMENT_TEAM = D756J56FJ3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
-				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Deemah.com.GlutincTeamUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sag.GlutincUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = GlutincTeam;
-				XROS_DEPLOYMENT_TARGET = 26.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Glutinc;
 			};
 			name = Debug;
 		};
-		269C08EB2EDECCF2009052A4 /* Release */ = {
+		A8954DB12EDD7E8100A2DDD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YM2L953M9C;
+				DEVELOPMENT_TEAM = D756J56FJ3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
-				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Deemah.com.GlutincTeamUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sag.GlutincUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = GlutincTeam;
-				XROS_DEPLOYMENT_TARGET = 26.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Glutinc;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		269C08BD2EDECCF2009052A4 /* Build configuration list for PBXProject "GlutincTeam" */ = {
+		A8954D832EDD7E7F00A2DDD4 /* Build configuration list for PBXProject "Glutinc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				269C08E12EDECCF2009052A4 /* Debug */,
-				269C08E22EDECCF2009052A4 /* Release */,
+				A8954DA72EDD7E8100A2DDD4 /* Debug */,
+				A8954DA82EDD7E8100A2DDD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		269C08E32EDECCF2009052A4 /* Build configuration list for PBXNativeTarget "GlutincTeam" */ = {
+		A8954DA92EDD7E8100A2DDD4 /* Build configuration list for PBXNativeTarget "Glutinc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				269C08E42EDECCF2009052A4 /* Debug */,
-				269C08E52EDECCF2009052A4 /* Release */,
+				A8954DAA2EDD7E8100A2DDD4 /* Debug */,
+				A8954DAB2EDD7E8100A2DDD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		269C08E62EDECCF2009052A4 /* Build configuration list for PBXNativeTarget "GlutincTeamTests" */ = {
+		A8954DAC2EDD7E8100A2DDD4 /* Build configuration list for PBXNativeTarget "GlutincTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				269C08E72EDECCF2009052A4 /* Debug */,
-				269C08E82EDECCF2009052A4 /* Release */,
+				A8954DAD2EDD7E8100A2DDD4 /* Debug */,
+				A8954DAE2EDD7E8100A2DDD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		269C08E92EDECCF2009052A4 /* Build configuration list for PBXNativeTarget "GlutincTeamUITests" */ = {
+		A8954DAF2EDD7E8100A2DDD4 /* Build configuration list for PBXNativeTarget "GlutincUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				269C08EA2EDECCF2009052A4 /* Debug */,
-				269C08EB2EDECCF2009052A4 /* Release */,
+				A8954DB02EDD7E8100A2DDD4 /* Debug */,
+				A8954DB12EDD7E8100A2DDD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 269C08BA2EDECCF2009052A4 /* Project object */;
+	rootObject = A8954D802EDD7E7F00A2DDD4 /* Project object */;
 }
