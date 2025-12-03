@@ -13,7 +13,8 @@ import PhotosUI
 struct UserModel {
     var name: String = "Jasmin"
     var photo: UIImage? = nil                 // nil -> use placeholder asset "userPhoto"
-    var savedImages: [String] = ["prod1","prod2"]
+    var posts: [String] = ["prod1", "prod2"]        // posted by user
+    var savedImages: [String] = ["prod3", "prod4"]  // bookmarked items
     var notificationsEnabled: Bool = true
 }
 
