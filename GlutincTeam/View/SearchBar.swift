@@ -13,14 +13,14 @@ struct SearchBar: View {
     var body: some View {
         HStack(spacing: 12) {
 
-            // أيقونة العدسة – اسمها عندك "Image"
+            
             Image("Search")
                 .resizable()
                 .renderingMode(.original)
                 .scaledToFit()
                 .frame(width: 22, height: 22)
 
-            // مكان الكتابة مع placeholder رمادي
+           
             TextField(
                 "",
                 text: $text,
@@ -30,11 +30,11 @@ struct SearchBar: View {
             .foregroundColor(Color("GreyColor"))
             .font(.system(size: 18, weight: .regular))
             .disableAutocorrection(true)
-            .tint(Color("GreyColor"))   // لون مؤشر الكتابة
+            .tint(Color("GreyColor"))
 
             Spacer(minLength: 0)
 
-            // أيقونة المايك – اسمها عندك "mic"
+        
             Image("mic")
                 .resizable()
                 .renderingMode(.original)
@@ -43,9 +43,9 @@ struct SearchBar: View {
         }
         .padding(.horizontal, 18)
         .frame(height: 56)
-        .background(Color("TextPrimary"))   // أبيض من الـ Assets
+        .background(Color("TextPrimary"))
         .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
-        .shadow(                              // شادو خفيف زي اللي بالصورة
+        .shadow(
             color: Color.black.opacity(0.08),
             radius: 18,
             x: 0,
