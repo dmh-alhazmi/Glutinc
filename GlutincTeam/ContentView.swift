@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             ProfileView(vm: vm)
-                .toolbar {
+                /*.toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         NavigationLink(destination: SettingsView(vm: vm)) {
                             Image(systemName: "gearshape")
@@ -22,7 +22,7 @@ struct ContentView: View {
                                 .font(.system(size: 20))
                         }
                     }
-                }
+                }*/
         }
     }
 }

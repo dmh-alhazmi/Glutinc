@@ -178,15 +178,7 @@ struct ProfileView: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 NavigationLink(destination: SettingsView(vm: vm)) {
-                    Image(systemName: "gearshape")
-                        .symbolRenderingMode(.monochrome)
-                        //.foregroundStyle(.black)
-                        .padding(10)
-                       /* .background(
-                            Capsule().fill(.ultraThinMaterial)
-                        )
-                        .shadow(color: .black.opacity(0.12), radius: 10, y: 4)
-*/
+                    Image(systemName: "gearshape") .glassEffect(.clear)
                 }
             }
         }
