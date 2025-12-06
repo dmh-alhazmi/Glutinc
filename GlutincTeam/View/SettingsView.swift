@@ -179,3 +179,11 @@ struct SettingsView: View {
         )
     }
 }
+#Preview("الإعدادات – AR • RTL") {
+    let vm = UserVM()
+    return NavigationStack {
+        SettingsView(vm: vm)
+            .environment(\.locale, Locale(identifier: "ar"))
+            .environment(\.layoutDirection, .rightToLeft)
+    }
+}

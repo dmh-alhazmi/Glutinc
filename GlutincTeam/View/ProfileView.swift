@@ -50,9 +50,9 @@ struct ProfileView: View {
                             VStack(spacing: 4) {
                                 Image(systemName: "text.justify")
                                     .font(.system(size: 20))
-                                    .foregroundStyle(selectedSegment == 1 ? Color.blue : .white.opacity(0.7))
+                                    .foregroundStyle(selectedSegment == 1 ? Color.teal : .white.opacity(0.7))
                                 RoundedRectangle(cornerRadius: 2)
-                                    .fill(Color.blue)
+                                    .fill(Color.teal)
                                     .frame(width: selectedSegment == 1 ? 40 : 0, height: 3)
                                     .animation(.easeInOut, value: selectedSegment)
                             }
@@ -65,9 +65,9 @@ struct ProfileView: View {
                             VStack(spacing: 4) {
                                 Image(systemName: "bookmark")
                                     .font(.system(size: 20))
-                                    .foregroundStyle(selectedSegment == 2 ? Color.blue : .white.opacity(0.7))
+                                    .foregroundStyle(selectedSegment == 2 ? Color.teal : .white.opacity(0.7))
                                 RoundedRectangle(cornerRadius: 2)
-                                    .fill(Color.blue)
+                                    .fill(Color.teal)
                                     .frame(width: selectedSegment == 2 ? 40 : 0, height: 3)
                                     .animation(.easeInOut, value: selectedSegment)
                             }
@@ -93,14 +93,15 @@ struct ProfileView: View {
 
                 Spacer(minLength: 0)
 
-                // Tiny bottom bar (icons only – ACTIVE)
-                // Tiny bottom bar (icons only – ACTIVE, styled like the mockup)
+                // Tiny bottom bar
                 let barHeight: CGFloat = 64
                 let pillInset: CGFloat = 6
 
                 GeometryReader { geo in
-                    let itemWidth = (geo.size.width - 32) / 3  // 16px side padding
-                    let pillWidth = itemWidth - pillInset * 2
+                    // Clamp widths to avoid negative/NaN dimensions
+                    let safeWidth = max(geo.size.width - 32, 0)    // 16px side padding accounted below
+                    let itemWidth = safeWidth / 3
+                    let pillWidth = max(itemWidth - pillInset * 2, 0)
 
                     ZStack(alignment: .leading) {
                         // Glass capsule background
@@ -138,7 +139,7 @@ struct ProfileView: View {
                                 Image(systemName: "basket")
                                     .font(.system(size: 24, weight: .regular))
                                     .frame(width: itemWidth, height: barHeight)
-                                    .foregroundStyle(selectedTab == 1 ? Color.blue : Color.black)
+                                    .foregroundStyle(selectedTab == 1 ? Color.teal : Color.black)
                             }
                             .buttonStyle(.plain)
 
@@ -149,7 +150,7 @@ struct ProfileView: View {
                                 Image(systemName: "barcode.viewfinder")
                                     .font(.system(size: 24, weight: .regular))
                                     .frame(width: itemWidth, height: barHeight)
-                                    .foregroundStyle(selectedTab == 2 ? Color.blue : Color.black)
+                                    .foregroundStyle(selectedTab == 2 ? Color.teal : Color.black)
                             }
                             .buttonStyle(.plain)
 
@@ -160,7 +161,7 @@ struct ProfileView: View {
                                 Image(systemName: "person.fill")
                                     .font(.system(size: 24, weight: .regular))
                                     .frame(width: itemWidth, height: barHeight)
-                                    .foregroundStyle(selectedTab == 3 ? Color.blue : Color.black)
+                                    .foregroundStyle(selectedTab == 3 ? Color.teal : Color.black)
                             }
                             .buttonStyle(.plain)
                         }
@@ -169,7 +170,7 @@ struct ProfileView: View {
                     .frame(height: barHeight)
                 }
                 .frame(height: 64)                // keep layout stable
-                .padding(.horizontal, 24)
+                .padding(.horizontal, 90)
                 .padding(.bottom, 30)
 
             }
@@ -177,7 +178,15 @@ struct ProfileView: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 NavigationLink(destination: SettingsView(vm: vm)) {
-                    Image(systemName: "gearshape").foregroundStyle(.white).glassEffect()
+                    Image(systemName: "gearshape")
+                        .symbolRenderingMode(.monochrome)
+                        //.foregroundStyle(.black)
+                        .padding(10)
+                       /* .background(
+                            Capsule().fill(.ultraThinMaterial)
+                        )
+                        .shadow(color: .black.opacity(0.12), radius: 10, y: 4)
+*/
                 }
             }
         }
@@ -207,19 +216,21 @@ struct ProfileView: View {
     // Optional demo data:
     // vm.user.savedImages = ["prod1","prod2"]  // make sure these exist in Assets
     // vm.user.name = "Jasmin"
-
+   
     return NavigationStack {                 // show the toolbar gear in preview
         ProfileView(vm: vm)
     }
+    //.preferredColorScheme(.dark)
 }
 
-/*#Preview("الملف الشخصي – AR • RTL") {
+#Preview("الملف الشخصي – AR • RTL") {
     let vm = UserVM()
     vm.user.name = "جاسمين"
+
     return NavigationStack {
         ProfileView(vm: vm)
-            .environment(\.layoutDirection, .rightToLeft) // force RTL in preview
+            .environment(\.locale, Locale(identifier: "ar"))     // ← Arabic language
+            .environment(\.layoutDirection, .rightToLeft)        // ← RTL layout
     }
     .preferredColorScheme(.light)
 }
-*/

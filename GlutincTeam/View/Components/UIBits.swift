@@ -66,3 +66,21 @@ struct ProductCard: View {
             .clipShape(RoundedRectangle(cornerRadius: 18))
     }
 }
+
+// Adds a subtle "glass" look you can reuse where needed.
+// Keeps it conservative so it works on all Apple platforms.
+extension View {
+    @ViewBuilder
+    func glassEffect(cornerRadius: CGFloat = 12) -> some View {
+        self
+            .padding(8)
+            .background(
+                RoundedRectangle(cornerRadius: cornerRadius)
+                    .fill(.ultraThinMaterial)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: cornerRadius)
+                            .stroke(Color.white.opacity(0.35), lineWidth: 1)
+                    )
+            )
+    }
+}
